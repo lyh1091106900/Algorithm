@@ -1,0 +1,27 @@
+{
+  "name": "algorithm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": { 
+      "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/lyh1091106900/Algorithm.git"
+  },
+  "keywords": [
+    "algorithm",
+    "mplementation",
+    "\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[C\u001b[C\u001b[C\u001b[C\u001b[Ci\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[Cmplementation"
+  ],
+  "author": "lyh1091106900",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lyh1091106900/Algorithm/issues"
+  },
+  "homepage": "https://github.com/lyh1091106900/Algorithm#readme",
+  "devDependencies": {
+    "mocha": "^6.0.2"
+  }
+}
