@@ -1,7 +1,7 @@
 /**
  * 选择排序 
  * 优点：算法是稳定的 两个条件依次排序 第二次不会破坏第一次的排序结果
- * 缺点：数据够大情况下时间复杂度是O（N^2）
+ * 缺点：时间复杂度是O（N^2）
  */
 var tool =require("./utils/tool")
 /**
@@ -30,5 +30,4 @@ function selectSort (a,type=0){
   }
   return a
 }
-console.log([1,2,3]==selectSort([1,3,2]))
 module.exports.selectSort=selectSort;
