@@ -3,7 +3,7 @@
  * 优点：算法是稳定的 两个条件依次排序 第二次不会破坏第一次的排序结果
  * 缺点：时间复杂度是O（N^2）
  */
-var tool =require("./utils/tool")
+var tool =require("../utils/tool")
 /**
  * 
  * @param {*} a Array 

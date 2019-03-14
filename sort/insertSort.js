@@ -4,7 +4,7 @@
  * 缺点：最差情况下时间复杂度是O（N^2）
  * 
  */
-var tool =require("./utils/tool")
+var tool =require("../utils/tool")
 /**
  * 
  * @param {*} a Array 

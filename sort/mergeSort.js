@@ -3,7 +3,7 @@
  * 优点：算法是稳定的 两个条件依次排序 第二次不会破坏第一次的排序结果 比较次数NlogN
  * 缺点：内存占用大
  */
-var tool =require("./utils/tool");
+var tool =require("../utils/tool");
 var aux=[];
 /**
  * 升序

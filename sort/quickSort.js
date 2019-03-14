@@ -3,7 +3,7 @@
  * 优点：节省内存 比较次数NlogN 使用率很高的一种排序
  * 缺点：不稳定，两种条件依次排序会有干扰
  */
-var tool = require("./utils/tool");
+var tool = require("../utils/tool");
 /**
  * 
  * @param {*} a Array 
