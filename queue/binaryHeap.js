@@ -32,12 +32,5 @@ function binanyHeap(size){
 createbinanyHeap = function(size){
     return new binanyHeap(size);
 }
-var bh = createbinanyHeap(10);
-[1,3,4,8,5,14,2,46].forEach(function(value){
-    bh.insert(value)
-   
-})
-console.log(bh.getpq());
-bh.delMax();
-console.log(bh.getpq());
+
 module.exports = createbinanyHeap;
