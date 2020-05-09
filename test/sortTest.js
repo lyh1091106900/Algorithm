@@ -3,6 +3,7 @@ var selectSort = require('../sort/selectSort').selectSort;
 var insertSort = require('../sort/insertSort').insertSort;
 var mergeSort = require('../sort/mergeSort').mergeSort;
 var quickSort = require('../sort/quickSort').quickSort;
+var heapsort = require('../sort/heapSort').heapsort;
 describe('selectSort',()=>{
     it('selectSort should return [1,2,3]',()=>{
         assert.equal(2,selectSort([1,3,2])[1])
@@ -19,6 +20,12 @@ describe('mergeSort',()=>{
     it('mergeSort should return [3, 4, 5, 6, 7, 9]',()=>{
         var b =[5,3,4,6,7,9];
         assert.equal(4,mergeSort(b)[1])
+    })
+})
+describe('heapsort',()=>{
+    it('heapsort should return [3,7 , 8, 16, 17, 20 ]',()=>{
+        var b =[ 20, 17, 8, 16, 3, 7 ];
+        assert.equal(7,mergeSort(b)[1])
     })
 })
 describe('quickSort',()=>{
