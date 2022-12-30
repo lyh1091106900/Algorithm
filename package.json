@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/lyh1091106900/Algorithm#readme",
   "devDependencies": {
-    "mocha": "^6.0.2"
+    "mocha": "^10.2.0"
   }
 }
